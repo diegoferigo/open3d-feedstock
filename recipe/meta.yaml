@@ -21,7 +21,7 @@ source:
     - 7249.patch
 
 build:
-  number: 11
+  number: 12
   entry_points:
     - open3d = open3d.tools.cli:main
   ignore_run_exports_from:
@@ -93,6 +93,7 @@ requirements:
     - openssl            # [not linux]
     - tbb-devel
     - liblzma-devel      # [win]
+    - vcomp14            # [win]
     # TODO: Consider for the future
     # - libidn2  # [osx]
     # - imgui      # Not used currently as we are not building the GUI
