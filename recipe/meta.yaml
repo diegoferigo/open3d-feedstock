@@ -22,7 +22,7 @@ source:
     - 7249.patch
 
 build:
-  number: 12
+  number: 13
   entry_points:
     - open3d = open3d.tools.cli:main
   ignore_run_exports_from:
