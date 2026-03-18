@@ -1,0 +1,12 @@
+diff --git a/python/requirements.txt b/python/requirements.txt
+index 66db20516..18fea5948 100644
+--- a/python/requirements.txt
++++ b/python/requirements.txt
+@@ -2,5 +2,5 @@ numpy>=1.18.0
+ dash>=2.6.0
+ werkzeug>=3.0.0
+ flask>=3.0.0
+-nbformat>=5.7.0
+-configargparse
++# nbformat>=5.7.0
++# configargparse
