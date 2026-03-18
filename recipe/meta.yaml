@@ -17,6 +17,7 @@ source:
     - fix-crypto.patch  # [osx]
     - fix-win-extractzip.patch  # [win]
     - fix-win-minizip.patch  # [win]
+    - fix-requirements-txt.patch
     - 7335.patch  # [win]
     - 7249.patch
 
