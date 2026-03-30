@@ -5,3 +5,9 @@ cxx_compiler_version:      # [osx]
 tbb_devel:
   - '2021'
   - '2022'
+vtk:
+  - '9.4.2'
+  - '9.6.0'
+zip_keys:
+  - - tbb_devel
+    - vtk
