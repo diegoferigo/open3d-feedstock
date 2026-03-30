@@ -29,7 +29,7 @@ source:
     - 7249.patch
 
 build:
-  number: 12
+  number: 13
   python:
     entry_points:
       - open3d = open3d.tools.cli:main
