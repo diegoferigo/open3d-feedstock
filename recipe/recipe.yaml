@@ -1,0 +1,176 @@
+schema_version: 1
+
+context:
+  name: Open3D
+  version: "0.19.0"
+
+package:
+  name: ${{ name|lower }}
+  version: ${{ version }}
+
+source:
+  url: https://github.com/isl-org/Open3D/archive/v${{ version }}.tar.gz
+  sha256: 5cedb0e093c6baceab801b903eb8e2558bc2b3999ac57762bf78a39d5e15394a
+  patches:
+    - fix-unzip.patch
+    - if: not win
+      then: fix-curl.patch
+    - fix-error.patch
+    - fix-find-imgui.patch
+    - if: build_platform != target_platform
+      then: fix-cross-compile-shader.patch
+    - if: osx
+      then: fix-crypto.patch
+    - if: win
+      then: fix-win-extractzip.patch
+    - if: win
+      then: fix-win-minizip.patch
+    - if: win
+      then: 7335.patch
+    - 7249.patch
+
+build:
+  number: 12
+  python:
+    entry_points:
+      - open3d = open3d.tools.cli:main
+
+requirements:
+  build:
+    - ${{ compiler('c') }}
+    - ${{ stdlib("c") }}
+    - ${{ compiler('cxx') }}
+    - cmake
+    - make
+    - pkg-config
+    - if: osx
+      then: llvm-openmp
+    - if: linux
+      then: libgomp
+    - if: build_platform != target_platform
+      then: python
+    - if: build_platform != target_platform
+      then: pip
+    - if: build_platform != target_platform
+      then: cross-python_${{ target_platform }}
+    - if: build_platform != target_platform and not ppc64le
+      then: qt6-main
+  host:
+    - if: aarch64
+      then: libcxx >=7
+    - if: linux
+      then: libgl-devel
+    - if: linux
+      then: libglx-devel
+    - if: linux
+      then: libopengl-devel
+    - if: linux
+      then: xorg-libxdamage
+    - if: linux
+      then: xorg-libxfixes
+    - if: linux
+      then: libxcb
+    - setuptools
+    - python
+    - pip
+    - assimp
+    - libzlib
+    - eigen
+    - embree
+    - glew
+    - glfw
+    - fmt
+    - libjpeg-turbo
+    - gmock
+    - jsoncpp
+    - zeromq
+    - cppzmq
+    - msgpack-c
+    - msgpack-cxx
+    - minizip
+    - vtk
+    - qt6-main
+    - libpng
+    - pybind11
+    - pybind11-abi
+    - qhull
+    - if: not win
+      then: qhull-static
+    - tinyobjloader
+    - if: not win
+      then: libcblas
+    - if: not win
+      then: liblapacke
+    - if: win
+      then: liblapack * *mkl
+    - if: win
+      then: liblapacke * *mkl
+    - if: win
+      then: mkl-devel
+    - if: not win
+      then: nomkl
+    - libboost-headers
+    - nanoflann
+    - liblzf
+    - if: not win
+      then: libcurl
+    - if: not linux
+      then: openssl
+    - tbb-devel
+    - if: win
+      then: liblzma-devel
+    - if: win
+      then: vcomp14
+    # TODO: Consider for the future
+    # - libidn2  # [osx]
+    # - imgui      # Not used currently as we are not building the GUI
+    # - tinygltf   # TODO: Does not export cmake config in conda-forge; see https://github.com/conda-forge/tinygltf-feedstock/issues/24
+    # - pytorch
+  run:
+    - numpy
+    - python
+    - plotly
+    - dash
+    - if: win
+      then: libblas * *mkl
+    - if: win
+      then: minizip
+  run_exports:
+    - ${{ pin_subpackage('open3d', upper_bound='x.x.x') }}
+  ignore_run_exports:
+    from_package:
+      - libcblas
+      - minizip
+      - msgpack-c
+      - msgpack-cxx
+
+tests:
+  - python:
+      imports:
+        - open3d
+      pip_check: false
+  - script:
+      - open3d --help
+
+about:
+  summary: Open-source library that supports rapid development of software that deals with 3D data.
+  license: MIT
+  license_file:
+    - LICENSE
+    - if: win
+      then: 3rdparty/curl/LICENSE
+    - 3rdparty/uvatlas/LICENSE_directxheaders
+    - 3rdparty/uvatlas/LICENSE_directxmath
+    - 3rdparty/uvatlas/LICENSE_uvatlas
+    - 3rdparty/possionrecon/LICENSE
+    - 3rdparty/rply/LICENSE
+    - 3rdparty/tinyfiledialogs/LICENSE
+    - 3rdparty/tinygltf/LICENSE
+  homepage: http://www.open3d.org/
+  repository: https://github.com/isl-org/Open3D
+
+extra:
+  recipe-maintainers:
+    - goanpeca
+    - Tobias-Fischer
+    - traversaro
