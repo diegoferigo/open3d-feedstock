@@ -8,84 +8,84 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
-      linux_64_python3.10.____cpythontbb_devel2021:
-        CONFIG: linux_64_python3.10.____cpythontbb_devel2021
+      linux_64_python3.10.____cpythontbb_devel2021vtk9.4.2:
+        CONFIG: linux_64_python3.10.____cpythontbb_devel2021vtk9.4.2
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_python3.10.____cpythontbb_devel2022:
-        CONFIG: linux_64_python3.10.____cpythontbb_devel2022
+      linux_64_python3.10.____cpythontbb_devel2022vtk9.6.0:
+        CONFIG: linux_64_python3.10.____cpythontbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_python3.11.____cpythontbb_devel2021:
-        CONFIG: linux_64_python3.11.____cpythontbb_devel2021
+      linux_64_python3.11.____cpythontbb_devel2021vtk9.4.2:
+        CONFIG: linux_64_python3.11.____cpythontbb_devel2021vtk9.4.2
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_python3.11.____cpythontbb_devel2022:
-        CONFIG: linux_64_python3.11.____cpythontbb_devel2022
+      linux_64_python3.11.____cpythontbb_devel2022vtk9.6.0:
+        CONFIG: linux_64_python3.11.____cpythontbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_python3.12.____cpythontbb_devel2021:
-        CONFIG: linux_64_python3.12.____cpythontbb_devel2021
+      linux_64_python3.12.____cpythontbb_devel2021vtk9.4.2:
+        CONFIG: linux_64_python3.12.____cpythontbb_devel2021vtk9.4.2
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_python3.12.____cpythontbb_devel2022:
-        CONFIG: linux_64_python3.12.____cpythontbb_devel2022
+      linux_64_python3.12.____cpythontbb_devel2022vtk9.6.0:
+        CONFIG: linux_64_python3.12.____cpythontbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_python3.13.____cp313tbb_devel2021:
-        CONFIG: linux_64_python3.13.____cp313tbb_devel2021
+      linux_64_python3.13.____cp313tbb_devel2021vtk9.4.2:
+        CONFIG: linux_64_python3.13.____cp313tbb_devel2021vtk9.4.2
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_python3.13.____cp313tbb_devel2022:
-        CONFIG: linux_64_python3.13.____cp313tbb_devel2022
+      linux_64_python3.13.____cp313tbb_devel2022vtk9.6.0:
+        CONFIG: linux_64_python3.13.____cp313tbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_python3.14.____cp314tbb_devel2021:
-        CONFIG: linux_64_python3.14.____cp314tbb_devel2021
+      linux_64_python3.14.____cp314tbb_devel2021vtk9.4.2:
+        CONFIG: linux_64_python3.14.____cp314tbb_devel2021vtk9.4.2
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_python3.14.____cp314tbb_devel2022:
-        CONFIG: linux_64_python3.14.____cp314tbb_devel2022
+      linux_64_python3.14.____cp314tbb_devel2022vtk9.6.0:
+        CONFIG: linux_64_python3.14.____cp314tbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_python3.10.____cpythontbb_devel2021:
-        CONFIG: linux_aarch64_python3.10.____cpythontbb_devel2021
+      linux_aarch64_python3.10.____cpythontbb_devel2021vtk9.4.2:
+        CONFIG: linux_aarch64_python3.10.____cpythontbb_devel2021vtk9.4.2
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_python3.10.____cpythontbb_devel2022:
-        CONFIG: linux_aarch64_python3.10.____cpythontbb_devel2022
+      linux_aarch64_python3.10.____cpythontbb_devel2022vtk9.6.0:
+        CONFIG: linux_aarch64_python3.10.____cpythontbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_python3.11.____cpythontbb_devel2021:
-        CONFIG: linux_aarch64_python3.11.____cpythontbb_devel2021
+      linux_aarch64_python3.11.____cpythontbb_devel2021vtk9.4.2:
+        CONFIG: linux_aarch64_python3.11.____cpythontbb_devel2021vtk9.4.2
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_python3.11.____cpythontbb_devel2022:
-        CONFIG: linux_aarch64_python3.11.____cpythontbb_devel2022
+      linux_aarch64_python3.11.____cpythontbb_devel2022vtk9.6.0:
+        CONFIG: linux_aarch64_python3.11.____cpythontbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_python3.12.____cpythontbb_devel2021:
-        CONFIG: linux_aarch64_python3.12.____cpythontbb_devel2021
+      linux_aarch64_python3.12.____cpythontbb_devel2021vtk9.4.2:
+        CONFIG: linux_aarch64_python3.12.____cpythontbb_devel2021vtk9.4.2
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_python3.12.____cpythontbb_devel2022:
-        CONFIG: linux_aarch64_python3.12.____cpythontbb_devel2022
+      linux_aarch64_python3.12.____cpythontbb_devel2022vtk9.6.0:
+        CONFIG: linux_aarch64_python3.12.____cpythontbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_python3.13.____cp313tbb_devel2021:
-        CONFIG: linux_aarch64_python3.13.____cp313tbb_devel2021
+      linux_aarch64_python3.13.____cp313tbb_devel2021vtk9.4.2:
+        CONFIG: linux_aarch64_python3.13.____cp313tbb_devel2021vtk9.4.2
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_python3.13.____cp313tbb_devel2022:
-        CONFIG: linux_aarch64_python3.13.____cp313tbb_devel2022
+      linux_aarch64_python3.13.____cp313tbb_devel2022vtk9.6.0:
+        CONFIG: linux_aarch64_python3.13.____cp313tbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_python3.14.____cp314tbb_devel2021:
-        CONFIG: linux_aarch64_python3.14.____cp314tbb_devel2021
+      linux_aarch64_python3.14.____cp314tbb_devel2021vtk9.4.2:
+        CONFIG: linux_aarch64_python3.14.____cp314tbb_devel2021vtk9.4.2
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_python3.14.____cp314tbb_devel2022:
-        CONFIG: linux_aarch64_python3.14.____cp314tbb_devel2022
+      linux_aarch64_python3.14.____cp314tbb_devel2022vtk9.6.0:
+        CONFIG: linux_aarch64_python3.14.____cp314tbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
   timeoutInMinutes: 360

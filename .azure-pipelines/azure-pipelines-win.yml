@@ -8,35 +8,35 @@ jobs:
     vmImage: windows-2022
   strategy:
     matrix:
-      win_64_python3.10.____cpythontbb_devel2021:
-        CONFIG: win_64_python3.10.____cpythontbb_devel2021
+      win_64_python3.10.____cpythontbb_devel2021vtk9.4.2:
+        CONFIG: win_64_python3.10.____cpythontbb_devel2021vtk9.4.2
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.10.____cpythontbb_devel2022:
-        CONFIG: win_64_python3.10.____cpythontbb_devel2022
+      win_64_python3.10.____cpythontbb_devel2022vtk9.6.0:
+        CONFIG: win_64_python3.10.____cpythontbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.11.____cpythontbb_devel2021:
-        CONFIG: win_64_python3.11.____cpythontbb_devel2021
+      win_64_python3.11.____cpythontbb_devel2021vtk9.4.2:
+        CONFIG: win_64_python3.11.____cpythontbb_devel2021vtk9.4.2
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.11.____cpythontbb_devel2022:
-        CONFIG: win_64_python3.11.____cpythontbb_devel2022
+      win_64_python3.11.____cpythontbb_devel2022vtk9.6.0:
+        CONFIG: win_64_python3.11.____cpythontbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.12.____cpythontbb_devel2021:
-        CONFIG: win_64_python3.12.____cpythontbb_devel2021
+      win_64_python3.12.____cpythontbb_devel2021vtk9.4.2:
+        CONFIG: win_64_python3.12.____cpythontbb_devel2021vtk9.4.2
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.12.____cpythontbb_devel2022:
-        CONFIG: win_64_python3.12.____cpythontbb_devel2022
+      win_64_python3.12.____cpythontbb_devel2022vtk9.6.0:
+        CONFIG: win_64_python3.12.____cpythontbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.13.____cp313tbb_devel2021:
-        CONFIG: win_64_python3.13.____cp313tbb_devel2021
+      win_64_python3.13.____cp313tbb_devel2021vtk9.4.2:
+        CONFIG: win_64_python3.13.____cp313tbb_devel2021vtk9.4.2
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.13.____cp313tbb_devel2022:
-        CONFIG: win_64_python3.13.____cp313tbb_devel2022
+      win_64_python3.13.____cp313tbb_devel2022vtk9.6.0:
+        CONFIG: win_64_python3.13.____cp313tbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.14.____cp314tbb_devel2021:
-        CONFIG: win_64_python3.14.____cp314tbb_devel2021
+      win_64_python3.14.____cp314tbb_devel2021vtk9.4.2:
+        CONFIG: win_64_python3.14.____cp314tbb_devel2021vtk9.4.2
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.14.____cp314tbb_devel2022:
-        CONFIG: win_64_python3.14.____cp314tbb_devel2022
+      win_64_python3.14.____cp314tbb_devel2022vtk9.6.0:
+        CONFIG: win_64_python3.14.____cp314tbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables:

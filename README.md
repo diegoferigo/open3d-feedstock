@@ -44,353 +44,353 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_python3.10.____cpythontbb_devel2021</td>
+              <td>linux_64_python3.10.____cpythontbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythontbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythontbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.10.____cpythontbb_devel2022</td>
+              <td>linux_64_python3.10.____cpythontbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythontbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythontbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.11.____cpythontbb_devel2021</td>
+              <td>linux_64_python3.11.____cpythontbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythontbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythontbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.11.____cpythontbb_devel2022</td>
+              <td>linux_64_python3.11.____cpythontbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythontbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythontbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.12.____cpythontbb_devel2021</td>
+              <td>linux_64_python3.12.____cpythontbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpythontbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpythontbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.12.____cpythontbb_devel2022</td>
+              <td>linux_64_python3.12.____cpythontbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpythontbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpythontbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.13.____cp313tbb_devel2021</td>
+              <td>linux_64_python3.13.____cp313tbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.13.____cp313tbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.13.____cp313tbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.13.____cp313tbb_devel2022</td>
+              <td>linux_64_python3.13.____cp313tbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.13.____cp313tbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.13.____cp313tbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.14.____cp314tbb_devel2021</td>
+              <td>linux_64_python3.14.____cp314tbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.14.____cp314tbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.14.____cp314tbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.14.____cp314tbb_devel2022</td>
+              <td>linux_64_python3.14.____cp314tbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.14.____cp314tbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.14.____cp314tbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.10.____cpythontbb_devel2021</td>
+              <td>linux_aarch64_python3.10.____cpythontbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.10.____cpythontbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.10.____cpythontbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.10.____cpythontbb_devel2022</td>
+              <td>linux_aarch64_python3.10.____cpythontbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.10.____cpythontbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.10.____cpythontbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.11.____cpythontbb_devel2021</td>
+              <td>linux_aarch64_python3.11.____cpythontbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.11.____cpythontbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.11.____cpythontbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.11.____cpythontbb_devel2022</td>
+              <td>linux_aarch64_python3.11.____cpythontbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.11.____cpythontbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.11.____cpythontbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.12.____cpythontbb_devel2021</td>
+              <td>linux_aarch64_python3.12.____cpythontbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.12.____cpythontbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.12.____cpythontbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.12.____cpythontbb_devel2022</td>
+              <td>linux_aarch64_python3.12.____cpythontbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.12.____cpythontbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.12.____cpythontbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.13.____cp313tbb_devel2021</td>
+              <td>linux_aarch64_python3.13.____cp313tbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.13.____cp313tbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.13.____cp313tbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.13.____cp313tbb_devel2022</td>
+              <td>linux_aarch64_python3.13.____cp313tbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.13.____cp313tbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.13.____cp313tbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.14.____cp314tbb_devel2021</td>
+              <td>linux_aarch64_python3.14.____cp314tbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.14.____cp314tbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.14.____cp314tbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.14.____cp314tbb_devel2022</td>
+              <td>linux_aarch64_python3.14.____cp314tbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.14.____cp314tbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.14.____cp314tbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.10.____cpythontbb_devel2021</td>
+              <td>osx_64_python3.10.____cpythontbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythontbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythontbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.10.____cpythontbb_devel2022</td>
+              <td>osx_64_python3.10.____cpythontbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythontbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythontbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.11.____cpythontbb_devel2021</td>
+              <td>osx_64_python3.11.____cpythontbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpythontbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpythontbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.11.____cpythontbb_devel2022</td>
+              <td>osx_64_python3.11.____cpythontbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpythontbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpythontbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.12.____cpythontbb_devel2021</td>
+              <td>osx_64_python3.12.____cpythontbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpythontbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpythontbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.12.____cpythontbb_devel2022</td>
+              <td>osx_64_python3.12.____cpythontbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpythontbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpythontbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.13.____cp313tbb_devel2021</td>
+              <td>osx_64_python3.13.____cp313tbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.13.____cp313tbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.13.____cp313tbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.13.____cp313tbb_devel2022</td>
+              <td>osx_64_python3.13.____cp313tbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.13.____cp313tbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.13.____cp313tbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.14.____cp314tbb_devel2021</td>
+              <td>osx_64_python3.14.____cp314tbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314tbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314tbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.14.____cp314tbb_devel2022</td>
+              <td>osx_64_python3.14.____cp314tbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314tbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314tbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.10.____cpythontbb_devel2021</td>
+              <td>osx_arm64_python3.10.____cpythontbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.10.____cpythontbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.10.____cpythontbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.10.____cpythontbb_devel2022</td>
+              <td>osx_arm64_python3.10.____cpythontbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.10.____cpythontbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.10.____cpythontbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.11.____cpythontbb_devel2021</td>
+              <td>osx_arm64_python3.11.____cpythontbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.11.____cpythontbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.11.____cpythontbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.11.____cpythontbb_devel2022</td>
+              <td>osx_arm64_python3.11.____cpythontbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.11.____cpythontbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.11.____cpythontbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.12.____cpythontbb_devel2021</td>
+              <td>osx_arm64_python3.12.____cpythontbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.12.____cpythontbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.12.____cpythontbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.12.____cpythontbb_devel2022</td>
+              <td>osx_arm64_python3.12.____cpythontbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.12.____cpythontbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.12.____cpythontbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.13.____cp313tbb_devel2021</td>
+              <td>osx_arm64_python3.13.____cp313tbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.13.____cp313tbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.13.____cp313tbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.13.____cp313tbb_devel2022</td>
+              <td>osx_arm64_python3.13.____cp313tbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.13.____cp313tbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.13.____cp313tbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.14.____cp314tbb_devel2021</td>
+              <td>osx_arm64_python3.14.____cp314tbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.14.____cp314tbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.14.____cp314tbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.14.____cp314tbb_devel2022</td>
+              <td>osx_arm64_python3.14.____cp314tbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.14.____cp314tbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.14.____cp314tbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.10.____cpythontbb_devel2021</td>
+              <td>win_64_python3.10.____cpythontbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10.____cpythontbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10.____cpythontbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.10.____cpythontbb_devel2022</td>
+              <td>win_64_python3.10.____cpythontbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10.____cpythontbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10.____cpythontbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.11.____cpythontbb_devel2021</td>
+              <td>win_64_python3.11.____cpythontbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.11.____cpythontbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.11.____cpythontbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.11.____cpythontbb_devel2022</td>
+              <td>win_64_python3.11.____cpythontbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.11.____cpythontbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.11.____cpythontbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.12.____cpythontbb_devel2021</td>
+              <td>win_64_python3.12.____cpythontbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.12.____cpythontbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.12.____cpythontbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.12.____cpythontbb_devel2022</td>
+              <td>win_64_python3.12.____cpythontbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.12.____cpythontbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.12.____cpythontbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.13.____cp313tbb_devel2021</td>
+              <td>win_64_python3.13.____cp313tbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.13.____cp313tbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.13.____cp313tbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.13.____cp313tbb_devel2022</td>
+              <td>win_64_python3.13.____cp313tbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.13.____cp313tbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.13.____cp313tbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.14.____cp314tbb_devel2021</td>
+              <td>win_64_python3.14.____cp314tbb_devel2021vtk9.4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.14.____cp314tbb_devel2021" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.14.____cp314tbb_devel2021vtk9.4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.14.____cp314tbb_devel2022</td>
+              <td>win_64_python3.14.____cp314tbb_devel2022vtk9.6.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21759&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.14.____cp314tbb_devel2022" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/open3d-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.14.____cp314tbb_devel2022vtk9.6.0" alt="variant">
                 </a>
               </td>
             </tr>
