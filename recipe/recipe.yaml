@@ -88,7 +88,7 @@ requirements:
     - pybind11
     - pybind11-abi
     - qhull
-    - tinyobjloader
+    - libtinyobjloader
     - if: not win
       then:
         - qhull-static
@@ -121,8 +121,6 @@ requirements:
     - python
     - plotly
     - dash
-    - if: linux
-      then: ${{ pin_compatible('tinyobjloader', upper_bound='x.x.x') }}
     - if: win
       then:
         - libblas * *mkl
