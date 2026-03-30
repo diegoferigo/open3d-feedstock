@@ -35,9 +35,6 @@ jobs:
       win_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0:
         CONFIG: win_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2:
-        CONFIG: win_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2
-        UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables:
     CONDA_BLD_PATH: D:\\bld\\

@@ -77,12 +77,6 @@ description = "Build open3d-feedstock with variant linux_64_python3.14.____cp314
 [tasks."inspect-linux_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0.yaml"
 description = "List contents of open3d-feedstock packages built for variant linux_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0"
-[tasks."build-linux_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2.yaml"
-description = "Build open3d-feedstock with variant linux_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2 directly (without setup scripts)"
-[tasks."inspect-linux_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2.yaml"
-description = "List contents of open3d-feedstock packages built for variant linux_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2"
 [tasks."build-linux_aarch64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0.yaml"
 description = "Build open3d-feedstock with variant linux_aarch64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0 directly (without setup scripts)"
@@ -137,12 +131,6 @@ description = "Build open3d-feedstock with variant linux_aarch64_python3.14.____
 [tasks."inspect-linux_aarch64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0.yaml"
 description = "List contents of open3d-feedstock packages built for variant linux_aarch64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0"
-[tasks."build-linux_aarch64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2.yaml"
-description = "Build open3d-feedstock with variant linux_aarch64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2 directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2.yaml"
-description = "List contents of open3d-feedstock packages built for variant linux_aarch64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2"
 [tasks."build-osx_64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0.yaml"
 description = "Build open3d-feedstock with variant osx_64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0 directly (without setup scripts)"
@@ -197,12 +185,6 @@ description = "Build open3d-feedstock with variant osx_64_python3.14.____cp314qt
 [tasks."inspect-osx_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0.yaml"
 description = "List contents of open3d-feedstock packages built for variant osx_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0"
-[tasks."build-osx_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2.yaml"
-description = "Build open3d-feedstock with variant osx_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2 directly (without setup scripts)"
-[tasks."inspect-osx_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2.yaml"
-description = "List contents of open3d-feedstock packages built for variant osx_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2"
 [tasks."build-osx_arm64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0.yaml"
 description = "Build open3d-feedstock with variant osx_arm64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0 directly (without setup scripts)"
@@ -257,12 +239,6 @@ description = "Build open3d-feedstock with variant osx_arm64_python3.14.____cp31
 [tasks."inspect-osx_arm64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0.yaml"
 description = "List contents of open3d-feedstock packages built for variant osx_arm64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0"
-[tasks."build-osx_arm64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2.yaml"
-description = "Build open3d-feedstock with variant osx_arm64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2.yaml"
-description = "List contents of open3d-feedstock packages built for variant osx_arm64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2"
 [tasks."build-win_64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0.yaml"
 description = "Build open3d-feedstock with variant win_64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0 directly (without setup scripts)"
@@ -317,12 +293,6 @@ description = "Build open3d-feedstock with variant win_64_python3.14.____cp314qt
 [tasks."inspect-win_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0.yaml"
 description = "List contents of open3d-feedstock packages built for variant win_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0"
-[tasks."build-win_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2.yaml"
-description = "Build open3d-feedstock with variant win_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2 directly (without setup scripts)"
-[tasks."inspect-win_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2.yaml"
-description = "List contents of open3d-feedstock packages built for variant win_64_python3.14.____cp314qt6_main6.9tbb_devel2021vtk9.4.2"
 
 [feature.smithy.dependencies]
 conda-smithy = "*"
