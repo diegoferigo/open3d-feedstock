@@ -22,11 +22,10 @@ source:
     - if: osx
       then: fix-crypto.patch
     - if: win
-      then: fix-win-extractzip.patch
-    - if: win
-      then: fix-win-minizip.patch
-    - if: win
-      then: 7335.patch
+      then:
+        - fix-win-extractzip.patch
+        - fix-win-minizip.patch
+        - 7335.patch
     - 7249.patch
 
 build:
@@ -48,28 +47,23 @@ requirements:
     - if: linux
       then: libgomp
     - if: build_platform != target_platform
-      then: python
-    - if: build_platform != target_platform
-      then: pip
-    - if: build_platform != target_platform
-      then: cross-python_${{ target_platform }}
+      then:
+        - python
+        - pip
+        - cross-python_${{ target_platform }}
     - if: build_platform != target_platform and not ppc64le
       then: qt6-main
   host:
     - if: aarch64
       then: libcxx >=7
     - if: linux
-      then: libgl-devel
-    - if: linux
-      then: libglx-devel
-    - if: linux
-      then: libopengl-devel
-    - if: linux
-      then: xorg-libxdamage
-    - if: linux
-      then: xorg-libxfixes
-    - if: linux
-      then: libxcb
+      then:
+        - libgl-devel
+        - libglx-devel
+        - libopengl-devel
+        - xorg-libxdamage
+        - xorg-libxfixes
+        - libxcb
     - setuptools
     - python
     - pip
@@ -94,21 +88,17 @@ requirements:
     - pybind11
     - pybind11-abi
     - qhull
-    - if: not win
-      then: qhull-static
     - tinyobjloader
     - if: not win
-      then: libcblas
-    - if: not win
-      then: liblapacke
-    - if: win
-      then: liblapack * *mkl
-    - if: win
-      then: liblapacke * *mkl
-    - if: win
-      then: mkl-devel
-    - if: not win
-      then: nomkl
+      then:
+        - qhull-static
+        - libcblas
+        - liblapacke
+        - nomkl
+      else:
+        - liblapack * *mkl
+        - liblapacke * *mkl
+        - mkl-devel
     - libboost-headers
     - nanoflann
     - liblzf
@@ -118,9 +108,9 @@ requirements:
       then: openssl
     - tbb-devel
     - if: win
-      then: liblzma-devel
-    - if: win
-      then: vcomp14
+      then:
+        - liblzma-devel
+        - vcomp14
     # TODO: Consider for the future
     # - libidn2  # [osx]
     # - imgui      # Not used currently as we are not building the GUI
@@ -131,10 +121,12 @@ requirements:
     - python
     - plotly
     - dash
+    - if: linux
+      then: ${{ pin_compatible('tinyobjloader', upper_bound='x.x.x') }}
     - if: win
-      then: libblas * *mkl
-    - if: win
-      then: minizip
+      then:
+        - libblas * *mkl
+        - minizip
   run_exports:
     - ${{ pin_subpackage('open3d', upper_bound='x.x.x') }}
   ignore_run_exports:
