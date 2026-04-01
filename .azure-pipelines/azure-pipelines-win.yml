@@ -8,32 +8,20 @@ jobs:
     vmImage: windows-2022
   strategy:
     matrix:
-      win_64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0:
-        CONFIG: win_64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0
+      win_64_python3.10.____cpython:
+        CONFIG: win_64_python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.10.____cpythonqt6_main6.9tbb_devel2021vtk9.4.2:
-        CONFIG: win_64_python3.10.____cpythonqt6_main6.9tbb_devel2021vtk9.4.2
+      win_64_python3.11.____cpython:
+        CONFIG: win_64_python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.11.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0:
-        CONFIG: win_64_python3.11.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0
+      win_64_python3.12.____cpython:
+        CONFIG: win_64_python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.11.____cpythonqt6_main6.9tbb_devel2021vtk9.4.2:
-        CONFIG: win_64_python3.11.____cpythonqt6_main6.9tbb_devel2021vtk9.4.2
+      win_64_python3.13.____cp313:
+        CONFIG: win_64_python3.13.____cp313
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.12.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0:
-        CONFIG: win_64_python3.12.____cpythonqt6_main6.10tbb_devel2022vtk9.6.0
-        UPLOAD_PACKAGES: 'True'
-      win_64_python3.12.____cpythonqt6_main6.9tbb_devel2021vtk9.4.2:
-        CONFIG: win_64_python3.12.____cpythonqt6_main6.9tbb_devel2021vtk9.4.2
-        UPLOAD_PACKAGES: 'True'
-      win_64_python3.13.____cp313qt6_main6.10tbb_devel2022vtk9.6.0:
-        CONFIG: win_64_python3.13.____cp313qt6_main6.10tbb_devel2022vtk9.6.0
-        UPLOAD_PACKAGES: 'True'
-      win_64_python3.13.____cp313qt6_main6.9tbb_devel2021vtk9.4.2:
-        CONFIG: win_64_python3.13.____cp313qt6_main6.9tbb_devel2021vtk9.4.2
-        UPLOAD_PACKAGES: 'True'
-      win_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0:
-        CONFIG: win_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.0
+      win_64_python3.14.____cp314:
+        CONFIG: win_64_python3.14.____cp314
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables:
