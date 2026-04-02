@@ -18,8 +18,6 @@ jsoncpp:
 - 1.9.6
 libboost_headers:
 - '1.88'
-libcblas:
-- 3.9.* *netlib
 libjpeg_turbo:
 - '3'
 liblzma_devel:
