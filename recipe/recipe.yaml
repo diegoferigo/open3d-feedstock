@@ -139,7 +139,7 @@ tests:
   - python:
       imports:
         - open3d
-      pip_check: false
+      pip_check: true
   - script:
       - open3d --help
 
