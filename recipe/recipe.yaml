@@ -3,6 +3,7 @@ schema_version: 1
 context:
   name: Open3D
   version: "0.19.0"
+  build_number: 100
 
 package:
   name: ${{ name|lower }}
@@ -27,9 +28,10 @@ source:
         - fix-win-minizip.patch
         - 7335.patch
     - 7249.patch
+    - fix-requirements-txt.patch
 
 build:
-  number: 13
+  number: ${{ build_number }}
   python:
     entry_points:
       - open3d = open3d.tools.cli:main
@@ -138,7 +140,7 @@ tests:
   - python:
       imports:
         - open3d
-      pip_check: false
+      pip_check: true
   - script:
       - open3d --help
 
