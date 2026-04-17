@@ -28,6 +28,7 @@ source:
         - fix-win-minizip.patch
         - 7335.patch
     - 7249.patch
+    - fix-requirements-txt.patch
 
 build:
   number: ${{ build_number }}
