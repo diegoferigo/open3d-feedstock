@@ -3,7 +3,7 @@ schema_version: 1
 context:
   name: Open3D
   version: "0.19.0"
-  build_number: 100
+  build_number: 101
 
 package:
   name: ${{ name|lower }}
@@ -53,8 +53,8 @@ requirements:
         - python
         - pip
         - cross-python_${{ target_platform }}
-    - if: build_platform != target_platform and not ppc64le
-      then: qt6-main
+        - if: not ppc64le
+          then: qt6-main
   host:
     - if: aarch64
       then: libcxx >=7
