@@ -10,7 +10,7 @@ tbb_devel:
   - '2022'
 vtk:
   - '9.4.2'
-  - '9.6.0'
+  - '9.6.1'
 zip_keys:
   - - qt6_main
     - tbb_devel
