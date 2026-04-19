@@ -3,6 +3,7 @@ schema_version: 1
 context:
   name: Open3D
   version: "0.19.0"
+  build_number: 101
 
 package:
   name: ${{ name|lower }}
@@ -27,10 +28,11 @@ source:
         - fix-win-minizip.patch
         - 7335.patch
     - 7249.patch
+    - fix-requirements-txt.patch
 
 build:
   # Starting with 100 since these new variants will not live in the main branch.
-  number: 100
+  number: ${{ build_number }}
   skip:
     # There is no vtk 9.4.2 on Python 3.14.
     - match(python, ">=3.14") and match(vtk, "<9.6")
@@ -57,8 +59,8 @@ requirements:
         - python
         - pip
         - cross-python_${{ target_platform }}
-    - if: build_platform != target_platform and not ppc64le
-      then: qt6-main
+        - if: not ppc64le
+          then: qt6-main
   host:
     - if: aarch64
       then: libcxx >=7
@@ -144,7 +146,7 @@ tests:
   - python:
       imports:
         - open3d
-      pip_check: false
+      pip_check: true
   - script:
       - open3d --help
 

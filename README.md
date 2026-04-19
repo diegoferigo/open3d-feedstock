@@ -3,21 +3,6 @@ About open3d-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/open3d-feedstock/blob/main/LICENSE.txt)
 
-
-About open3d
-------------
-
-Home: http://www.open3d.org/
-
-Package license: MIT
-
-Summary: Open-source library that supports rapid development of software that deals with 3D data.
-
-Development: https://github.com/isl-org/Open3D
-
-About open3d
-------------
-
 Home: http://www.open3d.org/
 
 Package license: MIT
