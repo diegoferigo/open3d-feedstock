@@ -31,7 +31,6 @@ source:
     - fix-requirements-txt.patch
 
 build:
-  # Starting with 100 since these new variants will not live in the main branch.
   number: ${{ build_number }}
   skip:
     # There is no vtk 9.4.2 on Python 3.14.
