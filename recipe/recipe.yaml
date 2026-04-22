@@ -3,7 +3,7 @@ schema_version: 1
 context:
   name: Open3D
   version: "0.19.0"
-  build_number: 102
+  build_number: 14
 
 package:
   name: ${{ name|lower }}
@@ -32,6 +32,11 @@ source:
 
 build:
   number: ${{ build_number }}
+  skip:
+    # There is no vtk 9.4.2 on Python 3.14.
+    - match(python, ">=3.14") and match(vtk, "<9.6")
+    # Solver problems with vtk 9.4.2 / tbb 2021 / libboost-headers on windows.
+    - win and match(vtk, "<9.6")
   python:
     entry_points:
       - open3d = open3d.tools.cli:main

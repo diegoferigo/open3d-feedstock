@@ -2,3 +2,16 @@ c_compiler_version:        # [osx]
 - '18'                     # [osx]
 cxx_compiler_version:      # [osx]
 - '18'                     # [osx]
+qt6_main:
+  - '6.9'
+  - '6.10'
+tbb_devel:
+  - '2021'
+  - '2022'
+vtk:
+  - '9.4.2'
+  - '9.6.1'
+zip_keys:
+  - - qt6_main
+    - tbb_devel
+    - vtk

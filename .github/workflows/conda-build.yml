@@ -22,52 +22,92 @@ jobs:
       max-parallel: 50
       matrix:
         include:
-          - CONFIG: linux_64_python3.10.____cpython
+          - CONFIG: linux_64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1
             UPLOAD_PACKAGES: True
             os: ubuntu
             runs_on: ['ubuntu-latest']
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-          - CONFIG: linux_64_python3.11.____cpython
+          - CONFIG: linux_64_python3.10.____cpythonqt6_main6.9tbb_devel2021vtk9.4.2
             UPLOAD_PACKAGES: True
             os: ubuntu
             runs_on: ['ubuntu-latest']
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-          - CONFIG: linux_64_python3.12.____cpython
+          - CONFIG: linux_64_python3.11.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1
             UPLOAD_PACKAGES: True
             os: ubuntu
             runs_on: ['ubuntu-latest']
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-          - CONFIG: linux_64_python3.13.____cp313
+          - CONFIG: linux_64_python3.11.____cpythonqt6_main6.9tbb_devel2021vtk9.4.2
             UPLOAD_PACKAGES: True
             os: ubuntu
             runs_on: ['ubuntu-latest']
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-          - CONFIG: linux_64_python3.14.____cp314
+          - CONFIG: linux_64_python3.12.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1
             UPLOAD_PACKAGES: True
             os: ubuntu
             runs_on: ['ubuntu-latest']
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-          - CONFIG: linux_aarch64_python3.10.____cpython
+          - CONFIG: linux_64_python3.12.____cpythonqt6_main6.9tbb_devel2021vtk9.4.2
             UPLOAD_PACKAGES: True
             os: ubuntu
             runs_on: ['ubuntu-latest']
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-          - CONFIG: linux_aarch64_python3.11.____cpython
+          - CONFIG: linux_64_python3.13.____cp313qt6_main6.10tbb_devel2022vtk9.6.1
             UPLOAD_PACKAGES: True
             os: ubuntu
             runs_on: ['ubuntu-latest']
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-          - CONFIG: linux_aarch64_python3.12.____cpython
+          - CONFIG: linux_64_python3.13.____cp313qt6_main6.9tbb_devel2021vtk9.4.2
             UPLOAD_PACKAGES: True
             os: ubuntu
             runs_on: ['ubuntu-latest']
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-          - CONFIG: linux_aarch64_python3.13.____cp313
+          - CONFIG: linux_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.1
             UPLOAD_PACKAGES: True
             os: ubuntu
             runs_on: ['ubuntu-latest']
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-          - CONFIG: linux_aarch64_python3.14.____cp314
+          - CONFIG: linux_aarch64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1
+            UPLOAD_PACKAGES: True
+            os: ubuntu
+            runs_on: ['ubuntu-latest']
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+          - CONFIG: linux_aarch64_python3.10.____cpythonqt6_main6.9tbb_devel2021vtk9.4.2
+            UPLOAD_PACKAGES: True
+            os: ubuntu
+            runs_on: ['ubuntu-latest']
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+          - CONFIG: linux_aarch64_python3.11.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1
+            UPLOAD_PACKAGES: True
+            os: ubuntu
+            runs_on: ['ubuntu-latest']
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+          - CONFIG: linux_aarch64_python3.11.____cpythonqt6_main6.9tbb_devel2021vtk9.4.2
+            UPLOAD_PACKAGES: True
+            os: ubuntu
+            runs_on: ['ubuntu-latest']
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+          - CONFIG: linux_aarch64_python3.12.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1
+            UPLOAD_PACKAGES: True
+            os: ubuntu
+            runs_on: ['ubuntu-latest']
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+          - CONFIG: linux_aarch64_python3.12.____cpythonqt6_main6.9tbb_devel2021vtk9.4.2
+            UPLOAD_PACKAGES: True
+            os: ubuntu
+            runs_on: ['ubuntu-latest']
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+          - CONFIG: linux_aarch64_python3.13.____cp313qt6_main6.10tbb_devel2022vtk9.6.1
+            UPLOAD_PACKAGES: True
+            os: ubuntu
+            runs_on: ['ubuntu-latest']
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+          - CONFIG: linux_aarch64_python3.13.____cp313qt6_main6.9tbb_devel2021vtk9.4.2
+            UPLOAD_PACKAGES: True
+            os: ubuntu
+            runs_on: ['ubuntu-latest']
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+          - CONFIG: linux_aarch64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.1
             UPLOAD_PACKAGES: True
             os: ubuntu
             runs_on: ['ubuntu-latest']
