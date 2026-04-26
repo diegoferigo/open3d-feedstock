@@ -1,41 +1,10 @@
 set -euxo pipefail
 
-if [[ "${CONDA_BUILD_CROSS_COMPILATION:-}" == "1" ]]; then
-  (
-    mkdir -p build-host
-    pushd build-host
-
-    export CC=$CC_FOR_BUILD
-    export CXX=$CXX_FOR_BUILD
-    export LDFLAGS=${LDFLAGS//$PREFIX/$BUILD_PREFIX}
-    export PKG_CONFIG_PATH=${PKG_CONFIG_PATH//$PREFIX/$BUILD_PREFIX}
-
-    # Unset them as we're ok with builds that are either slow or non-portable
-    unset CFLAGS
-    unset CXXFLAGS
-
-    cmake ${SRC_DIR} \
-      -DCMAKE_BUILD_TYPE=Release \
-      -DCMAKE_PREFIX_PATH=$BUILD_PREFIX -DCMAKE_INSTALL_PREFIX=$BUILD_PREFIX \
-      -DCMAKE_INSTALL_LIBDIR=lib \
-      -DCMAKE_INSTALL_SYSTEM_RUNTIME_LIBS_SKIP=True
-    # No need to compile everything, just ShaderEncoder and ShaderLinker is sufficient
-    cmake --build . --target ShaderEncoder --parallel ${CPU_COUNT} --config Release
-    cmake --build . --target ShaderLinker --parallel ${CPU_COUNT} --config Release
-  )
-fi
-
 rm -rf build || true
 mkdir build
 cd build
 
-if [[ "${CONDA_BUILD_CROSS_COMPILATION:-}" == "1" ]]; then
-  export CMAKE_ARGS="${CMAKE_ARGS} -DSHADER_ENCODER_PATH:STRING=`pwd`/../build-host/bin/ShaderEncoder"
-  export CMAKE_ARGS="${CMAKE_ARGS} -DSHADER_LINKER_PATH:STRING=`pwd`/../build-host/bin/ShaderLinker"
-  export QT_HOST_PATH="$BUILD_PREFIX"
-else
-  export QT_HOST_PATH="$PREFIX"
-fi
+export QT_HOST_PATH="$PREFIX"
 
 cmake ${SRC_DIR} ${CMAKE_ARGS} \
     -DBUILD_AZURE_KINECT=OFF \
