@@ -18,8 +18,6 @@ source:
       then: fix-curl.patch
     - fix-error.patch
     - fix-find-imgui.patch
-    - if: build_platform != target_platform
-      then: fix-cross-compile-shader.patch
     - if: osx
       then: fix-crypto.patch
     - if: win
@@ -48,13 +46,6 @@ requirements:
       then: llvm-openmp
     - if: linux
       then: libgomp
-    - if: build_platform != target_platform
-      then:
-        - python
-        - pip
-        - cross-python_${{ target_platform }}
-        - if: not ppc64le
-          then: qt6-main
   host:
     - if: aarch64
       then: libcxx >=7
