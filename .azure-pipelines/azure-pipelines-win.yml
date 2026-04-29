@@ -8,21 +8,46 @@ jobs:
     vmImage: windows-2022
   strategy:
     matrix:
-      win_64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1:
-        CONFIG: win_64_python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1
+      win_64_assimp5.4.3python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1:
+        CONFIG: win_64_assimp5.4.3python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.11.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1:
-        CONFIG: win_64_python3.11.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1
+        store_build_artifacts: false
+      win_64_assimp5.4.3python3.11.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1:
+        CONFIG: win_64_assimp5.4.3python3.11.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.12.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1:
-        CONFIG: win_64_python3.12.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1
+        store_build_artifacts: false
+      win_64_assimp5.4.3python3.12.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1:
+        CONFIG: win_64_assimp5.4.3python3.12.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.13.____cp313qt6_main6.10tbb_devel2022vtk9.6.1:
-        CONFIG: win_64_python3.13.____cp313qt6_main6.10tbb_devel2022vtk9.6.1
+        store_build_artifacts: false
+      win_64_assimp5.4.3python3.13.____cp313qt6_main6.10tbb_devel2022vtk9.6.1:
+        CONFIG: win_64_assimp5.4.3python3.13.____cp313qt6_main6.10tbb_devel2022vtk9.6.1
         UPLOAD_PACKAGES: 'True'
-      win_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.1:
-        CONFIG: win_64_python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.1
+        store_build_artifacts: false
+      win_64_assimp5.4.3python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.1:
+        CONFIG: win_64_assimp5.4.3python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.1
         UPLOAD_PACKAGES: 'True'
+        store_build_artifacts: false
+      win_64_assimp6.0.3python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1:
+        CONFIG: win_64_assimp6.0.3python3.10.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1
+        UPLOAD_PACKAGES: 'True'
+        store_build_artifacts: false
+      win_64_assimp6.0.3python3.11.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1:
+        CONFIG: win_64_assimp6.0.3python3.11.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1
+        UPLOAD_PACKAGES: 'True'
+        store_build_artifacts: false
+      win_64_assimp6.0.3python3.12.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1:
+        CONFIG: win_64_assimp6.0.3python3.12.____cpythonqt6_main6.10tbb_devel2022vtk9.6.1
+        UPLOAD_PACKAGES: 'True'
+        store_build_artifacts: false
+      win_64_assimp6.0.3python3.13.____cp313qt6_main6.10tbb_devel2022vtk9.6.1:
+        CONFIG: win_64_assimp6.0.3python3.13.____cp313qt6_main6.10tbb_devel2022vtk9.6.1
+        UPLOAD_PACKAGES: 'True'
+        store_build_artifacts: false
+      win_64_assimp6.0.3python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.1:
+        CONFIG: win_64_assimp6.0.3python3.14.____cp314qt6_main6.10tbb_devel2022vtk9.6.1
+        UPLOAD_PACKAGES: 'True'
+        store_build_artifacts: false
   timeoutInMinutes: 360
   variables:
     CONDA_BLD_PATH: D:\\bld\\
