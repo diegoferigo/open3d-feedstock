@@ -35,6 +35,12 @@ source:
 
 build:
   number: ${{ build_number }}
+  script:
+    # Expose the sysroot glibc floor to build.sh so the installed wheel can be
+    # retagged to the pinned baseline instead of a hardcoded manylinux version.
+    # Empty on platforms without a glibc sysroot (osx/win), where it is unused.
+    env:
+      c_stdlib_version: ${{ c_stdlib_version | default('') }}
   python:
     entry_points:
       - open3d = open3d.tools.cli:main
